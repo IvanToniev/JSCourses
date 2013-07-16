@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Exchange values</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <a href = "#" id="swap" onclick="showNumbers()"><strong>Show me the answer</strong></a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+   <script>
+       function showNumbers() {
+           var min=4294967295;
+           var max=0;
+           var i;
+           var myArr=new Array(100,2023,3,4,-5,6,7,8,9,1);
+           for(i=0;i<10;i++){
+                    if(myArr[i]>=max){
+                        max=myArr[i];
+                    }
+                    if(myArr[i]<=min){
+                        min=myArr[i];
+                    }
+                    jsConsole.writeLine(myArr[i]);
+                }
+                jsConsole.writeLine("max is: "+max);
+                jsConsole.writeLine("min is: "+min);
+            } 
+   </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Third digit of a number.</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <label for="firstNumber">Number:</label>
+        <input type="text" id="firstNumber" name ="firstNumber" />
+        <a href = "#" id="check" onclick="checkThirdDigit()">Check the third digit!</a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkThirdDigit() {
+            var thirdDigit = parseInt((jsConsole.readInteger("#firstNumber") / 100)) % 10;
+            jsConsole.writeLine("The third digit is: " + thirdDigit);
+        }
+    </script>
+</body></html>

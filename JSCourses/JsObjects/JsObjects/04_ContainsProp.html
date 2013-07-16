@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contains Property</title>
+</head>
+<body>
+    <script>
+        function hasProperty(obj, prpt) {
+            for (var i in obj) {
+                if (i == prpt) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        var test = {
+            Pecata: 5,
+            DedoMraz: 7,
+            cenko: 9
+        }
+
+        var hasPropertyOf = hasProperty(test, "DedoMraz");
+        document.write(hasPropertyOf);
+    </script>
+</body>
+</html>

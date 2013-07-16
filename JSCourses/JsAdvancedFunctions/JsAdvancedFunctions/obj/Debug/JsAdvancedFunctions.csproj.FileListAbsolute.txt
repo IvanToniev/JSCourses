@@ -1,0 +1,5 @@
+C:\Projects\JsAdvancedFunctions\JsAdvancedFunctions\bin\JsAdvancedFunctions.dll
+C:\Projects\JsAdvancedFunctions\JsAdvancedFunctions\bin\JsAdvancedFunctions.pdb
+C:\Projects\JsAdvancedFunctions\JsAdvancedFunctions\obj\Debug\JsAdvancedFunctions.csprojResolveAssemblyReference.cache
+C:\Projects\JsAdvancedFunctions\JsAdvancedFunctions\obj\Debug\JsAdvancedFunctions.dll
+C:\Projects\JsAdvancedFunctions\JsAdvancedFunctions\obj\Debug\JsAdvancedFunctions.pdb

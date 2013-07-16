@@ -1,0 +1,5 @@
+C:\Projects\AdvancedJsOOPHw\AdvancedJsOOPHw\bin\AdvancedJsOOPHw.dll
+C:\Projects\AdvancedJsOOPHw\AdvancedJsOOPHw\bin\AdvancedJsOOPHw.pdb
+C:\Projects\AdvancedJsOOPHw\AdvancedJsOOPHw\obj\Debug\AdvancedJsOOPHw.csprojResolveAssemblyReference.cache
+C:\Projects\AdvancedJsOOPHw\AdvancedJsOOPHw\obj\Debug\AdvancedJsOOPHw.dll
+C:\Projects\AdvancedJsOOPHw\AdvancedJsOOPHw\obj\Debug\AdvancedJsOOPHw.pdb

@@ -1,0 +1,5 @@
+C:\Projects\JQueryOverview\JQueryOverview\bin\JQueryOverview.dll
+C:\Projects\JQueryOverview\JQueryOverview\bin\JQueryOverview.pdb
+C:\Projects\JQueryOverview\JQueryOverview\obj\Debug\JQueryOverview.csprojResolveAssemblyReference.cache
+C:\Projects\JQueryOverview\JQueryOverview\obj\Debug\JQueryOverview.dll
+C:\Projects\JQueryOverview\JQueryOverview\obj\Debug\JQueryOverview.pdb

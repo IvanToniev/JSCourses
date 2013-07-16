@@ -1,0 +1,5 @@
+D:\Projects\JsFunctions\JsFunctions\bin\JsFunctions.dll
+D:\Projects\JsFunctions\JsFunctions\bin\JsFunctions.pdb
+D:\Projects\JsFunctions\JsFunctions\obj\Debug\JsFunctions.csprojResolveAssemblyReference.cache
+D:\Projects\JsFunctions\JsFunctions\obj\Debug\JsFunctions.dll
+D:\Projects\JsFunctions\JsFunctions\obj\Debug\JsFunctions.pdb

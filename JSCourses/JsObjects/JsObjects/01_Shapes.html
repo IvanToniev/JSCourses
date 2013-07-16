@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Shapes</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+
+        <a href="#" id="swap" onclick="ShowAnswer()"><strong>Show answer</strong></a>
+    </div>
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function ShowAnswer() {
+
+            var pointOne = Point(2, 3);
+            var pointTwo = Point(3, 4);
+            var pointThree = Point(5,6);
+            jsConsole.writeLine('The distance between the points is: ' + PointsDistance(pointOne, pointTwo));
+            var lineOne = Line(pointOne, pointTwo);
+            var lineTwo = Line(pointTwo, pointThree);
+            var lineThree = Line(pointThree, pointOne);
+            jsConsole.writeLine(CanTheyTriangle(lineOne,lineTwo,lineThree));
+        }
+        
+        function PointsDistance(poineOne, pointTwo) {
+            var deltaX = pointTwo.X - poineOne.X;
+            deltaX *= deltaX;
+            var deltaY = pointTwo.Y - poineOne.Y;
+            deltaY *= deltaY;
+            var dist = Math.sqrt(deltaX + deltaY);
+            return dist;
+        }
+
+        function Line(startPoint,endPoint) {
+            return { Length: PointsDistance(startPoint, endPoint) }
+        }
+
+        function Point(x, y) {
+            return {
+                X:x,
+                Y:y,
+                toString:function (){
+                    return this.X+ ' : '+ this.Y;                
+                }
+            }
+        }
+
+        function CanTheyTriangle(lineOne, lineTwo, lineThree) {
+            if (lineOne.Length < (lineTwo.Length + lineThree.Length) &&
+                lineTwo.Length < (lineOne.Length + lineThree.Length) &&
+                lineThree.Length < (lineOne.Length + lineTwo.Length)) {
+                return 'They can form a triangle';
+            }
+            else {
+                return 'They can not form a triangle.';
+            }
+        }
+        
+
+    </script>
+</body>
+</html>

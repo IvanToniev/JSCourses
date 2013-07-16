@@ -1,0 +1,5 @@
+D:\Projects\JsObjects\JsObjects\bin\JsObjects.dll
+D:\Projects\JsObjects\JsObjects\bin\JsObjects.pdb
+D:\Projects\JsObjects\JsObjects\obj\Debug\JsObjects.csprojResolveAssemblyReference.cache
+D:\Projects\JsObjects\JsObjects\obj\Debug\JsObjects.dll
+D:\Projects\JsObjects\JsObjects\obj\Debug\JsObjects.pdb

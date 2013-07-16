@@ -1,0 +1,5 @@
+C:\Projects\JsEvents\Carousel\bin\Carousel.dll
+C:\Projects\JsEvents\Carousel\bin\Carousel.pdb
+C:\Projects\JsEvents\Carousel\obj\Debug\Carousel.csprojResolveAssemblyReference.cache
+C:\Projects\JsEvents\Carousel\obj\Debug\Carousel.dll
+C:\Projects\JsEvents\Carousel\obj\Debug\Carousel.pdb

@@ -1,0 +1,31 @@
+﻿<!--Used angulas.js. Got the idea from a fellow student in the forum. This is a short version that is why i liked it.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="angular.min.js"></script>
+</head>
+<body>
+    <div data-ng-app data-ng-controller="TodoCtrl">
+        <p>
+            <span>{{ getRemaining().length }} of {{ todos.length }} remaining</span>
+            [<a href="#" data-ng-click="todos = getRemaining()">clear done</a>]
+        </p>
+
+        <ul>
+            <li data-ng-repeat="todo in todos">
+                <label>
+                    <input type="checkbox" data-ng-model="todo.done" />
+                    <span data-ng-class="{true: 'done'}[todo.done]">{{ todo.text }}</span>
+                </label>
+            </li>
+        </ul>
+
+        <form data-ng-submit="add()">
+            <input type="text" data-ng-model="todoText" placeholder="Add new todo here" />
+            <input type="submit" value="Add" />
+        </form>
+    </div>
+    <script src="TODO.js"></script>
+</body>
+</html>

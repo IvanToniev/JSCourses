@@ -1,0 +1,5 @@
+C:\Projects\TreeViewPlugin\TreeViewPlugin\bin\TreeViewPlugin.dll
+C:\Projects\TreeViewPlugin\TreeViewPlugin\bin\TreeViewPlugin.pdb
+C:\Projects\TreeViewPlugin\TreeViewPlugin\obj\Debug\TreeViewPlugin.csprojResolveAssemblyReference.cache
+C:\Projects\TreeViewPlugin\TreeViewPlugin\obj\Debug\TreeViewPlugin.dll
+C:\Projects\TreeViewPlugin\TreeViewPlugin\obj\Debug\TreeViewPlugin.pdb

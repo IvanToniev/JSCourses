@@ -1,0 +1,5 @@
+C:\Projects\Trashcan\Trashcan\bin\Trashcan.dll
+C:\Projects\Trashcan\Trashcan\bin\Trashcan.pdb
+C:\Projects\Trashcan\Trashcan\obj\Debug\Trashcan.csprojResolveAssemblyReference.cache
+C:\Projects\Trashcan\Trashcan\obj\Debug\Trashcan.dll
+C:\Projects\Trashcan\Trashcan\obj\Debug\Trashcan.pdb

@@ -1,0 +1,24 @@
+﻿<!-- I don't use any pictures but I think this is good enough.
+    It doesn't look good with a small count of items.
+    I got the idea from a fellow student in the forum, so i thank him ^^. -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Simple carousel</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="wraper">
+            <button onclick="carousel.start()">Start</button>
+            <button onclick="carousel.stop()">Stop</button>
+            <div id="carousel"></div>
+            <div class="button left" onclick="carousel.left()">
+                <<
+            </div>
+            <div class="button right" onclick="carousel.right()">
+                >>
+            </div>
+        </div>
+    </body>
+    <script src="Carousel.js"></script>
+</html>

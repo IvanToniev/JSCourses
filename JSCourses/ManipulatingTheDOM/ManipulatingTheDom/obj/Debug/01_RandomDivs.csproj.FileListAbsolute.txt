@@ -1,0 +1,4 @@
+C:\Projects\ManipulatingTheDom\ManipulatingTheDom\bin\ManipulatingTheDom.dll
+C:\Projects\ManipulatingTheDom\ManipulatingTheDom\bin\ManipulatingTheDom.pdb
+C:\Projects\ManipulatingTheDom\ManipulatingTheDom\obj\Debug\ManipulatingTheDom.dll
+C:\Projects\ManipulatingTheDom\ManipulatingTheDom\obj\Debug\ManipulatingTheDom.pdb

@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lexicographically smallest and largest property</title>
+<style>
+span
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display:block;
+	float:right;
+	margin:10px;
+}
+input[type=checkbox]
+{
+	margin:5px 10px 0px 2px;
+	padding:0;
+}
+
+div
+{
+	width:340px;
+	margin:auto;
+	margin-bottom:5px;
+	border:5px solid black;
+	border-radius:5px;
+	padding: 0px 0 10px 10px;
+	box-shadow: 1px 1px 2px 0px grey;
+	
+background-color:light-grey;
+}
+div:after
+{
+	content:"";
+	display:block;
+	clear:both;
+}
+input, textarea
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	color: #254f00;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: inset 2px 2px 2px #73875e;
+	padding: 5px;
+	margin: 10px;
+	background-color: light-grey;
+}
+textarea
+{
+	width: 300px;
+	-webkit-transition: background-color 1s ease 0s;
+	-moz-transition: background-color 1s ease 0s;
+	-ms-transition: background-color 1s ease 0s;
+	-o-transition: background-color 1s ease 0s;
+	transition: background-color 1s ease 0s;
+}
+#output
+{
+	min-height:240px;
+}
+textarea:focus
+{
+	background-color:dark-grey;
+}
+input[type=submit]
+{
+	
+background-color:dark-grey;
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf4ba', endColorstr='#d2e582',GradientType=0 ); *//* IE6-9 */
+box-shadow:  1px 1px 0px #8ba96c;
+border: 1px solid #fff;
+}
+input:hover
+{
+	cursor:pointer;
+	background:light-grey;
+}
+
+</style>
+<script>
+window.onload = function(){
+
+document.getElementById("enter").onclick = function() {
+//problem starts here
+var arr1 = [window, navigator, document];	
+
+for(var i = 0; i<3; i++){
+	var outTxt = "";
+	var arr;
+for(var property in arr1[i]){
+	outTxt += property+" ";
+}
+arr = outTxt.split(" ");
+arr.sort();	
+		outTxt = "Min: "+arr[1]+";\nMax: "+arr[arr.length-1]+";";
+var id = "output" + (i+1);
+//ends here	
+	document.getElementById(id).innerHTML = outTxt;
+}
+}
+document.getElementById("check").onclick = function() {
+	if(document.getElementById("check").checked){
+	document.getElementById("task").style.display = "block";
+	}else{
+		document.getElementById("task").style.display = "none";
+	}
+}
+	document.getElementById("task").style.display = "none";
+}
+</script>
+</head>
+<body>
+<div>
+<span><label for="check">Show task condition.</label><input type="checkbox" id="check" name="check"></span>
+<span id="task">Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects.</span>
+<textarea id="output1" type="text" placeholder="window min and max properties" disabled></textarea><br>
+<textarea id="output2" placeholder="navigator min and max properties" disabled></textarea><br>
+<textarea id="output3" placeholder="document min and max properties" disabled></textarea><br>
+<input id="enter" type="submit" value="EXECUTE">
+</div>
+</body>
+</html>

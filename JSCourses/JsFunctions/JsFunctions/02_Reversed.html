@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reversed</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <div>Enter a number to see it get reversed.</div>
+        <input id="num" type="text" name="num"/>
+        <a href = "#" id="swap" onclick="reverseNumber()"><strong>Show me the number</strong></a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+   <script>
+       function reverseNumber() {
+           var reversed = '';
+           var num = jsConsole.readFloat("#num");
+           var numToStr = num.toString();
+           for (var i = 0; i < numToStr.length; i++) {
+               reversed += num % 10;
+               num = Math.floor(num / 10);
+           }
+           jsConsole.writeLine(reversed);
+       }
+   </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Odd or Even Number?</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <label for="firstNumber">Number:</label>
+        <input type="text" id="firstNumber" name ="firstNumber" />
+        <a href = "#" id="check" onclick="checkOddOrEven()">Check this out!</a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkOddOrEven() {
+            var firstNum = jsConsole.readFloat("#firstNumber");
+            firstNum % 35 == 0 ? jsConsole.writeLine("it is dividable by 35") : jsConsole.writeLine("it is not dividable by 35");
+        }
+    </script>
+</body>
+</html>

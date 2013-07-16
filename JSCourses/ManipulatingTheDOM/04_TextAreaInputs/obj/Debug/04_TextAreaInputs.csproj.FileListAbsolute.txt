@@ -1,0 +1,5 @@
+C:\Projects\ManipulatingTheDom\04_TextAreaInputs\bin\04_TextAreaInputs.dll
+C:\Projects\ManipulatingTheDom\04_TextAreaInputs\bin\04_TextAreaInputs.pdb
+C:\Projects\ManipulatingTheDom\04_TextAreaInputs\obj\Debug\04_TextAreaInputs.csprojResolveAssemblyReference.cache
+C:\Projects\ManipulatingTheDom\04_TextAreaInputs\obj\Debug\04_TextAreaInputs.dll
+C:\Projects\ManipulatingTheDom\04_TextAreaInputs\obj\Debug\04_TextAreaInputs.pdb

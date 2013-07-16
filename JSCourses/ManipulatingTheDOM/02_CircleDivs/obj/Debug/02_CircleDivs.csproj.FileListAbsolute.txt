@@ -1,0 +1,4 @@
+C:\Projects\ManipulatingTheDom\02_CircleDivs\bin\02_CircleDivs.dll
+C:\Projects\ManipulatingTheDom\02_CircleDivs\bin\02_CircleDivs.pdb
+C:\Projects\ManipulatingTheDom\02_CircleDivs\obj\Debug\02_CircleDivs.dll
+C:\Projects\ManipulatingTheDom\02_CircleDivs\obj\Debug\02_CircleDivs.pdb

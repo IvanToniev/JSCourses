@@ -1,0 +1,4 @@
+C:\Projects\Trashcan\04_Canvas\bin\04_Canvas.dll
+C:\Projects\Trashcan\04_Canvas\bin\04_Canvas.pdb
+C:\Projects\Trashcan\04_Canvas\obj\Debug\04_Canvas.dll
+C:\Projects\Trashcan\04_Canvas\obj\Debug\04_Canvas.pdb

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rectangle Area</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <label for="rectWidth">Width:</label>
+        <input type="text" id="width" name ="rectWidth" />
+        <label for="rectHeight">Height:</label>
+        <input type="text" id="height" name ="rectHeight" />
+        <a href = "#" id="calc" onclick="calcRectArea()">Calculate Area!</a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function calcRectArea() {
+            var rectWidth = jsConsole.readFloat("#width");
+            var rectHeight = jsConsole.readFloat("#height");
+
+            jsConsole.writeLine("The area of the rectangle is equal to " + rectHeight * rectWidth)
+
+        }
+    </script>
+</body>
+</html>

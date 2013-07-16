@@ -1,0 +1,44 @@
+﻿#wraper {
+    position: relative;
+}
+
+#carousel {
+    overflow: hidden;
+    width: 600px;
+    height: 160px;
+    border: 2px solid #808080;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.button {
+    background-color: lightblue;
+    transition: opacity 1s;
+    opacity: 0.4;
+    width: 40px;
+    height: 20px;
+    font-size: 16pt;
+    border: 2px dotted #b6ff00;
+    position: absolute;
+    top: 80px;
+}
+
+    .button:hover {
+        transition: opacity 1s;
+        opacity: 1;
+    }
+
+.right {
+    left: 560px;
+}
+
+.carouselElement {
+    transition: left 0.5s;
+    width: 160px;
+    height: 160px;
+    border: 2px solid #888;
+    position: absolute;
+    left: 50px;
+    font-size: 20pt;
+}

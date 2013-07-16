@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bigger than the neighbours</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <div>We have an array. Enter the index of a number to see if it is bigger than its neighbours.</div>
+        <input type="text" id="num" />
+        <a href="#" id="swap" onclick="ShowAnswer()"><strong>Is it bigger</strong></a>
+    </div>
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function ShowAnswer() {
+
+            var num = jsConsole.readFloat("#num");
+            var arr = [0, 1, 2, 5, 4, 3, 6, 7, 8, 9];
+
+            jsConsole.writeLine(IsItBigger(num, arr));
+
+
+        }
+
+        function IsItBigger(num, arr) {
+
+            if (arr[num] > arr[num - 1] && arr[num] > arr[num + 1]) {
+                return ('The number at position ' + num + ' is bigger than its neighbours.');
+            }
+
+            else {
+                return -1;
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

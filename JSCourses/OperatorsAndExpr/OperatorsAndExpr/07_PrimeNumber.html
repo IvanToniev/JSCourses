@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Prime Numbers</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <label for="firstNumber">Number:</label>
+        <input type="text" id="firstNumber" name="firstNumber" />
+        <a href="#" id="check" onclick="checkPrime()">Check!</a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkPrime() {
+            var isPrime = true;
+            var someNum = jsConsole.readFloat("#firstNumber");
+            for (var i = 2; i <= Math.sqrt(someNum) ; i++) {
+                if (someNum % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            jsConsole.writeLine(isPrime ? "The number is prime." : "The number is not prime");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WhiteSpaces</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<script src="scripts/string-extensions.js"></script>
+</head>
+<body>							  
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    var sometext = new String(' Why, Hello there dear sir! ');
+	   
+	    function replaceAllWhiteSpaces(text, newSymbol) {
+	        var result = '';
+	        for (var i = 0; i < text.length; i++) {
+	            if (text[i] == ' ') {
+	                result += newSymbol;
+	            }
+	            else {
+	                result += text[i];
+	            }
+	        }
+	        return result;
+	    }
+
+        jsConsole.writeLine(replaceAllWhiteSpaces(sometext, '&nbsp'));
+
+	</script>
+</body>
+</html>

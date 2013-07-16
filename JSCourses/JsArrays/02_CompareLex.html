@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Exchange values</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <a href = "#" id="swap" onclick="showNumbers()"><strong>Show me the answer</strong></a>
+        <div id="result2">Result will be displayed here!</div>
+    </div>
+    
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+   <script>
+       function showNumbers() {
+           var myArr=new Array("pencho","vancho","dragancho");
+           var myArrTwo=new Array("pencho","dancho","gancho");
+           var matches=[];
+           var i;
+           var arrLen=myArr.length;
+           for(i=0;i<arrLen;i++){
+            if (myArr[i] == myArrTwo[i]){
+                  matches.push(myArr[i]);
+				}
+		    document.getElementById('result2').innerHTML = matches.join(", ") ;
+           }
+        }     
+       
+   </script>
+</body>
+</html>

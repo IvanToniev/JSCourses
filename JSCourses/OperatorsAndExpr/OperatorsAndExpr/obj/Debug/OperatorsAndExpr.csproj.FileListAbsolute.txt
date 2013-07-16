@@ -1,0 +1,5 @@
+D:\Projects\OperatorsAndExpr\OperatorsAndExpr\bin\OperatorsAndExpr.dll
+D:\Projects\OperatorsAndExpr\OperatorsAndExpr\bin\OperatorsAndExpr.pdb
+D:\Projects\OperatorsAndExpr\OperatorsAndExpr\obj\Debug\OperatorsAndExpr.csprojResolveAssemblyReference.cache
+D:\Projects\OperatorsAndExpr\OperatorsAndExpr\obj\Debug\OperatorsAndExpr.dll
+D:\Projects\OperatorsAndExpr\OperatorsAndExpr\obj\Debug\OperatorsAndExpr.pdb

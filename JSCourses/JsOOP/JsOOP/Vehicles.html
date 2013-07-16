@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+</head>
+<body>
+    <script src="vehiclesJs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var wheels = new Wheel(10);
+
+        var propellingNozzles = [
+            new propellingNozzles(100, afterburnerSwitch.OFF)
+        ];
+        
+        var landVehicle = new Vehicle.landVehicle(50, wheels);
+        console.log('Land vehicle speed initially: ' + landVehicle.speed + 'mph');
+        landVehicle.accelerate();
+        console.log('Land vehicle after acceleration: ' + landVehicle.speed + 'mph');
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Exchange values</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <a href = "#" id="swap" onclick="showNumbers()"><strong>Show me the answer</strong></a>
+        <div>You have an array.It will be sorted.</div>
+    </div>
+    
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+   <script>
+       function showNumbers() {     
+           function sortNumbers(){
+            myArray= new Array(-5, -6, 8, 9, 3, -7, 4, 22,-1);
+            var tempVar;
+            for (i=0; i<= myArray.length-1; i++) {
+                for (j=i+1; j<= myArray.length; j++) {
+                    if (myArray[j]< myArray[i]){
+                    tempVar=myArray[i];
+                    myArray[i]= myArray[j];
+                    myArray[j]=tempVar;
+                    }
+                }
+            }
+            return myArray;
+        }
+            jsConsole.write(sortNumbers());
+       }
+   </script>
+</body>
+</html>

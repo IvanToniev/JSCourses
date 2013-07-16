@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Last Digit</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <div>Enter a number to see the last digit of in words.</div>
+        <input id="num" type="text" name="num"/>
+        <a href = "#" id="swap" onclick="showDigit()"><strong>Show me the digit</strong></a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+   <script>
+       function showDigit() {
+           var num = jsConsole.readFloat("#num");
+           switch (num%10) {
+               case 1: jsConsole.writeLine('The last digit is one'); break;
+               case 2: jsConsole.writeLine('The last digit is two'); break;
+               case 3: jsConsole.writeLine('The last digit is three'); break;
+               case 4: jsConsole.writeLine('The last digit is four'); break;
+               case 5: jsConsole.writeLine('The last digit is five'); break;
+               case 6: jsConsole.writeLine('The last digit is six'); break;
+               case 7: jsConsole.writeLine('The last digit is seven'); break;
+               case 8: jsConsole.writeLine('The last digit is eight'); break;
+               case 9: jsConsole.writeLine('The last digit is nine'); break;
+               case 0: jsConsole.writeLine('The last digit is zero'); break;
+           }
+       }
+
+   </script>
+</body>
+</html>

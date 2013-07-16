@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Youngest Person</title>
+</head>
+<body>
+    <script>
+        function findYoungest(arr) {
+            var youngestPersonPosition = 0;
+            var youngestPersonAge = 200;
+
+            for (var i in arr) {
+                if (arr[i].age < youngestPersonAge) {
+                    youngestPersonAge = arr[i].age;
+                    youngestPersonPosition = i;
+                }
+            }
+
+            document.write(arr[youngestPersonPosition].firstname + "</br>"
+                          + arr[youngestPersonPosition].lastname + "</br>"
+                          + arr[youngestPersonPosition].age + "</br>");
+        }
+
+        var persons = [
+        { firstname: "Pecata", lastname: "Petrov", age: 32 },
+        { firstname: "Ivancho", lastname: "Ivanov", age: 81 },
+        { firstname: "Petkan", lastname: "Petkanov", age: 1 }];
+
+        findYoungest(persons);
+    </script>
+</body>
+</html>

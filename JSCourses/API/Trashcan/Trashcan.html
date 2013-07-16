@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <div id="canWrapper" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="imgs/closedcan.jpg" id="can" ondragover="openCan()" onmouseout="closeCan()" width="250" height="200" />
+    </div>
+    <div id="paperWrapper">
+        <img src="imgs/ball.jpg" draggable="true" ondragstart="drag(event)" id="img1" width="45" height="45" style="margin-left: 300px; margin-top: 300px;" />
+        <img src="imgs/ball.jpg" draggable="true" ondragstart="drag(event)" id="img2" width="45" height="45" style="margin-left: 350px; margin-top: 300px;" />
+        <img src="imgs/ball.jpg" draggable="true" ondragstart="drag(event)" id="img3" width="45" height="45" style="margin-left: 450px; margin-top: 300px;" />
+        <img src="imgs/ball.jpg" draggable="true" ondragstart="drag(event)" id="img4" width="45" height="45" style="margin-left: 500px; margin-top: 300px;" />
+    </div>
+    <script>
+        var can = document.getElementById('can');
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("dragged-id", ev.target.id);
+        }
+
+        function openCan() {
+            var img = document.getElementById('can');
+            img.src = 'imgs/openedcan.jpg';
+        }
+
+        function closeCan() {
+            var img = document.getElementById('can');
+            img.src = 'imgs/closedcan.jpg';
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("dragged-id");
+            var elementToRemove = document.getElementById(data);
+            paperWrapper.removeChild(elementToRemove);
+        }
+
+        function LoadImages() {
+            can.style.display = "inline";
+            can.style.cssFloat = "left";
+
+            var wrapper = document.getElementById("paperWrapper");
+            wrapper.style.display = "inline";
+            wrapper.style.cssFloat = "right";
+            wrapper.style.width = 400 + "px";
+            wrapper.style.height = 100 + "px";
+        }
+    </script>
+</body>
+</html>

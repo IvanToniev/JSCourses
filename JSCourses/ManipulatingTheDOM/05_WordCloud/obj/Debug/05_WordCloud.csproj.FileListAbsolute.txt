@@ -1,0 +1,5 @@
+C:\Projects\ManipulatingTheDom\05_WordCloud\bin\05_WordCloud.dll
+C:\Projects\ManipulatingTheDom\05_WordCloud\bin\05_WordCloud.pdb
+C:\Projects\ManipulatingTheDom\05_WordCloud\obj\Debug\05_WordCloud.csprojResolveAssemblyReference.cache
+C:\Projects\ManipulatingTheDom\05_WordCloud\obj\Debug\05_WordCloud.dll
+C:\Projects\ManipulatingTheDom\05_WordCloud\obj\Debug\05_WordCloud.pdb

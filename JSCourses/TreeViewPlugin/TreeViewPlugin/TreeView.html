@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-2.0.2.js"></script>
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <script>
+        (function ($) {
+            $.fn.treeView = function () {
+                $("a").on("click", function () {
+                    $(this).next("ul").toggle();
+                });
+                return $(this);
+            }
+        })(jQuery);
+        $(document).ready(function () {
+            $("ul").hide();
+            $('#treeView').treeView().show();
+            $("ul").parent().children("a").css("color", "blue");
+        });
+    </script>
+</head>
+<body>
+    <ul id="treeView">
+        <li><a href="#">first - sub</a>
+            <ul>
+                <li><a href="#">first</a></li>
+                <li><a href="#">second - sub</a>
+                    <ul>
+                        <li><a href="#">first</a>
+                            <ul>
+                                <li><a href="#">first</a></li>
+                                <li><a href="#">second</a></li>
+                                <li><a href="#">third</a></li>
+                            </ul>
+                        </li>
+ 
+                        <li><a href="#">second</a>
+                            <ul>
+                                <li><a href="#">first</a></li>
+                                <li><a href="#">second</a></li>
+                                <li><a href="#">third</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">third</a>
+                            <ul>
+                                <li><a href="#">first</a></li>
+                                <li><a href="#">second</a>
+                                    <ul>
+                                        <li><a href="#">first</a></li>
+                                        <li><a href="#">second</a></li>
+                                        <li><a href="#">third</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">third</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">third</a></li>
+            </ul>
+        </li>
+        <li><a href="#">second</a></li>
+        <li><a href="#">third</a></li>
+    </ul>
+ 
+</body>
+</html>

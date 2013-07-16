@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trashcan", "Trashcan\Trashcan.csproj", "{235A74F6-62EA-4FE4-BE66-A18EBDD4858F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_StoragePolyfill", "03_StoragePolyfill\03_StoragePolyfill.csproj", "{B843BB81-A2FE-4E0A-83B1-BABCDF9C647B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Canvas", "04_Canvas\04_Canvas.csproj", "{A8CA91F3-0824-454F-865C-002097CFE962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{235A74F6-62EA-4FE4-BE66-A18EBDD4858F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235A74F6-62EA-4FE4-BE66-A18EBDD4858F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235A74F6-62EA-4FE4-BE66-A18EBDD4858F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235A74F6-62EA-4FE4-BE66-A18EBDD4858F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B843BB81-A2FE-4E0A-83B1-BABCDF9C647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B843BB81-A2FE-4E0A-83B1-BABCDF9C647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B843BB81-A2FE-4E0A-83B1-BABCDF9C647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B843BB81-A2FE-4E0A-83B1-BABCDF9C647B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CA91F3-0824-454F-865C-002097CFE962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CA91F3-0824-454F-865C-002097CFE962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CA91F3-0824-454F-865C-002097CFE962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CA91F3-0824-454F-865C-002097CFE962}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

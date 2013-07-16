@@ -1,0 +1,4 @@
+C:\Projects\JsEvents\TODo\bin\TODo.dll
+C:\Projects\JsEvents\TODo\bin\TODo.pdb
+C:\Projects\JsEvents\TODo\obj\Debug\TODo.dll
+C:\Projects\JsEvents\TODo\obj\Debug\TODo.pdb

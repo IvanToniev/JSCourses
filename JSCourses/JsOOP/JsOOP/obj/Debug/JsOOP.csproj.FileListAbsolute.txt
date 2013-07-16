@@ -1,0 +1,5 @@
+C:\Projects\JsOOP\JsOOP\bin\JsOOP.dll
+C:\Projects\JsOOP\JsOOP\bin\JsOOP.pdb
+C:\Projects\JsOOP\JsOOP\obj\Debug\JsOOP.csprojResolveAssemblyReference.cache
+C:\Projects\JsOOP\JsOOP\obj\Debug\JsOOP.dll
+C:\Projects\JsOOP\JsOOP\obj\Debug\JsOOP.pdb

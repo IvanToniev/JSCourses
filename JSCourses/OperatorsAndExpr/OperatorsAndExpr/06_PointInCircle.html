@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Point in Circle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="inputs">
+        <label for="pointX">Point X:</label>
+        <input type="text" id="pointX" name ="pointX" />
+        <label for="pointY">Point Y:</label>
+        <input type="text" id="pointY" name ="pointY" />
+        <label for="radius">Circle Radius:</label>
+        <input type="text" id="radius" name ="radius" />
+        <a href = "#" id="check" onclick="isInCircle()">Check!</a>
+    </div>
+
+    <div id="js-console" class="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function isInCircle() {
+            var pointX = jsConsole.readFloat("#pointX");
+            var pointY = jsConsole.readFloat("#pointY");
+            var radius = jsConsole.readFloat("#radius");
+            var isInCircle = (pointX * pointX + pointY * pointY < radius * radius);
+            if (isInCircle) {
+                jsConsole.writeLine("The point( " + pointX + "," + pointY + " ) is in circle!");
+            }
+            else {
+                jsConsole.writeLine("The point( " + pointX + "," + pointY + " ) is not in circle!");
+            }
+        }
+    </script>
+</body>
+</html>

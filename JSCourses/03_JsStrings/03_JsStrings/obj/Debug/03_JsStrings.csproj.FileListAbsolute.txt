@@ -1,0 +1,5 @@
+D:\Projects\03_JsStrings\03_JsStrings\bin\03_JsStrings.dll
+D:\Projects\03_JsStrings\03_JsStrings\bin\03_JsStrings.pdb
+D:\Projects\03_JsStrings\03_JsStrings\obj\Debug\03_JsStrings.csprojResolveAssemblyReference.cache
+D:\Projects\03_JsStrings\03_JsStrings\obj\Debug\03_JsStrings.dll
+D:\Projects\03_JsStrings\03_JsStrings\obj\Debug\03_JsStrings.pdb
